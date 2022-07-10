@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
+PM_START_TEXT = """ Hello *{}*, My name is *{}*! [🤖](https://telegra.ph/file/d7d4852db4a0de76a5284.jpg)
 A telegram group management bot. I'm here to help you to manage your groups.
 I have lots of handy features such as:
 ‣ Warning system
@@ -240,8 +240,8 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/TrickyAbhii_Op"),
-                     InlineKeyboardButton(text="News", url="https://t.me/Techno_Trickop"),
+                     InlineKeyboardButton(text="Support", url="https://t.me/osmanigroupbot"),
+                     InlineKeyboardButton(text="News", url="https://t.me/teamosmani"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
