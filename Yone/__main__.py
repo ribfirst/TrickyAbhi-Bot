@@ -92,7 +92,7 @@ I have lots of handy features such as:
 ‣ Note keeping system
 ‣ Filters keeping system
 ‣ Approvals and much more.
-
+‣ Creator Bot By @ribajosmani
 So what are you waiting for?
 *Add me in your groups and give me full rights to make me function well.*
 """
