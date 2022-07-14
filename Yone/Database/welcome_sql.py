@@ -6,11 +6,11 @@ from Yone.Handlers.msg_types import Types
 from Yone.Database import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Haye {first}, sodhawaaw Sedee Tahay?"
+DEFAULT_GOODBYE = "Waan Ka Xumahay Ma Baxday!"
 
 DEFAULT_WELCOME_MESSAGES = [
-    "{first} is here!",  # Discord welcome messages copied
+    "{first} Sodhawaaw!",  # Discord welcome messages copied
     "Ready player {first}",
     "Genos, {first} is here.",
     "A wild {first} appeared.",
